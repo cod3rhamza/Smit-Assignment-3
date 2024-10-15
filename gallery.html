@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <style>
+       body {
+        font-family: Arial, sans-serif;
+      }
+      .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+      }
+      .gallery img {
+        width: 300px;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+      }
+      .gallery img:hover {
+        transform: scale(1.05);
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style="text-align: center">Random Things Gallery</h1>
+    <div class="gallery">
+      <img
+        src="https://media.istockphoto.com/id/1218961153/photo/art-museum.jpg?s=612x612&w=0&k=20&c=9fK54fu1mjzFjDOSqg_jfrMy4Hkp8vsmImB7rLrbhJs="
+        alt="Random Things 1"
+      />
+      <img
+        src="https://images.unsplash.com/photo-1507643179773-3e975d7ac515?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXJ0JTIwZ2FsbGVyeXxlbnwwfHwwfHx8MA%3D%3D"
+        alt="Random Things 2"
+      />
+      <img
+        src="https://media.istockphoto.com/id/1432866467/photo/young-couple-visiting-art-gallery.jpg?s=612x612&w=0&k=20&c=TY7uPcK3ZKFIj0k-5iuKJ4uW8ypy9F52izy5qjoZQEQ="
+        alt="Random Things 3"
+      />
+      <img
+        src="https://img.freepik.com/premium-photo/power-photography-gallery-wall-human-experience-world-photography-day_1245763-74469.jpg"
+        alt="Random Things 4"
+      />
+    </div>
+  </body>
+</html>
